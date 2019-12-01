@@ -1,0 +1,128 @@
+{
+    "symptons": [
+        {
+            "id": 1,
+            "question": "Ojos rojos"
+        },
+        {
+            "id": 2,
+            "question": "Lagrimeo en ojos"
+        },
+        {
+            "id": 3,
+            "question": "Sensibilidad a la luz"
+        },
+        {
+            "id": 4,
+            "question": "Ardor"
+        },
+        {
+            "id": 5,
+            "question": "Secreción ocular"
+        },
+        {
+            "id": 6,
+            "question": "Dolor en parpado"
+        },
+        {
+            "id": 7,
+            "question": "Sensación de tener un cuerpo extraño dentro del ojo"
+        },
+        {
+            "id": 8,
+            "question": "Resequedad ocular"
+        },
+        {
+            "id": 9,
+            "question": "Inflamación de la parte interna del parpado"
+        },
+        {
+            "id": 10,
+            "question": "Una sombra en la periferia del campo de visión"
+        },
+        {
+            "id": 11,
+            "question": "Disminución del campo visual periférico"
+        },
+        {
+            "id": 12,
+            "question": "Falta de paralelismo entre los ojos"
+        },
+        {
+            "id": 13,
+            "question": "Aparición de un bulto rojo en el parpado"
+        },
+        {
+            "id": 14,
+            "question": "Visión borrosa"
+        },
+        {
+            "id": 15,
+            "question": "Mucosa amarilla o verde (lagañas)"
+        },
+        {
+            "id": 16,
+            "question": "Pestañas pegadas"
+        },
+        {
+            "id": 17,
+            "question": "Alteración en la percepción de los colores"
+        },
+        {
+            "id": 18,
+            "question": "Diplopía (visión doble)"
+        },
+        {
+            "id": 19,
+            "question": "Hinchazón en los parpados"
+        },
+        {
+            "id": 20,
+            "question": "Perdida de agudeza visual respecto a un ojo"
+        },
+        {
+            "id": 21,
+            "question": "Inclinación en la cabeza"
+        },
+        {
+            "id": 22,
+            "question": "Pérdida de vision binocular"
+        },
+        {
+            "id": 23,
+            "question": "Errores en el cálculo de distancias y en la percepción de relieves"
+        },
+        {
+            "id": 24,
+            "question": "Ligeros dolores de cabeza"
+        },
+        {
+            "id": 25,
+            "question": "Sutiles trastornos visuales"
+        },
+        {
+            "id": 26,
+            "question": "Dificultad para adaptarse a la luz"
+        },
+        {
+            "id": 27,
+            "question": "Una cortina gris en movimiento en medio del campo de visión"
+        },
+        {
+            "id": 28,
+            "question": "Disminución repentina de la visión"
+        },
+        {
+            "id": 29,
+            "question": "Dolor ocular"
+        },
+        {
+            "id": 30,
+            "question": "Inflamación de los gangleos línfaticos justo delante de las orejas"
+        },
+        {
+            "id": 31,
+            "question": "Enrojecimiento en el parpado"
+        }
+    ]
+}
