@@ -11,6 +11,8 @@ import 'bootstrap-vue/dist/bootstrap-vue.css';
 
 import './assets/css/fontawesome-all.min.css';
 
+import './assets/css/animate.min.css';
+
 import './assets/css/custom.css';
 
 import App from './App.vue';

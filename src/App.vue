@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <b-navbar toggleable="lg" type="light">
+    <b-navbar toggleable="lg" type="light" variant="light" fixed="top">
       <b-navbar-brand href="index.html">
         <img src="logo-uaq-2.png" height="30" class="d-inline-block align-top" alt="Logo UAQ">
       </b-navbar-brand>
@@ -17,6 +17,7 @@
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
+    <div class="app-navbar-space"></div>
     <router-view></router-view>
   </div>
 </template>

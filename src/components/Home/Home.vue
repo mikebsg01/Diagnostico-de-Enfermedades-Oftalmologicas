@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-sm-12 app-header">
                     <div class="pl-5 col-sm-12 col-md-5">
-                        <h1 class="app-title">
+                        <h1 class="animated flipInX app-title">
                             <span>Diagnósticos de</span>
                             <span>Enfermedades</span>
                             <span>Oftalmológicas</span> 
@@ -22,7 +22,7 @@
             <div id="select-diagnostic" class="row">
                 <div class="col-sm-12 p-5 col-md-6">
                     <h2 class="text-center my-5">Diagnóstico General</h2>
-                    <p>Permite al usuario obtener una diagnóstico en base a un conjunto amplio y general de enfermedades.</p>
+                    <p>Permite al usuario obtener un diagnóstico en base a un conjunto amplio y general de enfermedades.</p>
                     <p>En la mayoría de los casos este diagnóstico puede ser el más acertado.</p>
                     <div class="text-center mt-5">
                         <button @click="startGeneralDiagnostic()" class="btn-start-diagnostic btn btn-primary rounded-pill">
@@ -71,6 +71,13 @@
                 </div>
             </div>
         </div>
+        <b-navbar type="light" variant="light">
+            <b-navbar-nav class="ml-auto">
+                <b-nav-item href="#">
+                    &copy; {{ new Date().getFullYear() }} - Todos los derechos reservados.
+                </b-nav-item>
+            </b-navbar-nav>
+        </b-navbar>
     </div>
 </template>
 
@@ -91,9 +98,9 @@ export default {
 
 <style scoped>
 .app-header {
-    height: 430px;
+    height: 400px;
     background-color: #f1f1f1;
-    background-image: linear-gradient(to left, rgba(0,0,0,0.1), rgba(0,0,0,0.4)), url(../../assets/img/wallpaper-3.jpg);
+    background-image: linear-gradient(to left, rgba(0,0,0,0.1), rgba(0,0,0,0.4)), url(../../assets/img/wallpaper-4.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
