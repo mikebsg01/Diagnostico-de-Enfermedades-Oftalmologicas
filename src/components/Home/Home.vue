@@ -83,7 +83,7 @@ export default {
         this.$router.push('generaldiagnostic');
     },
     startSpecificDiagnostic: function() {
-        alert('Specific');
+        this.$router.push('specificdiagnostic');
     }
   }
 }

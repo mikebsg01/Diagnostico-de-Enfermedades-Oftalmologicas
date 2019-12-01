@@ -16,12 +16,14 @@ import './assets/css/custom.css';
 import App from './App.vue';
 import Home from './components/Home/Home.vue';
 import GeneralDiagnostic from './components/GeneralDiagnostic/GeneralDiagnostic.vue';
+import SpecificDiagnostic from './components/SpecificDiagnostic/SpecificDiagnostic.vue';
 
 Vue.config.productionTip = false;
 
 const routes = [
   { path: '/', name: 'home', component: Home },
-  { path: '/generalDiagnostic', name: 'generaldiagnostic', component: GeneralDiagnostic }
+  { path: '/generalDiagnostic', name: 'generaldiagnostic', component: GeneralDiagnostic },
+  { path: '/specificDiagnostic', name: 'specificdiagnostic', component: SpecificDiagnostic }
 ];
 
 const router = new VueRouter({

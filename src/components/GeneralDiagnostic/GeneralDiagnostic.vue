@@ -101,7 +101,14 @@ import { preloadedModel } from './preloadedModel.json';
 
 export default {
   name: 'GeneralDiagnostic',
-  props: {},
+  props: {
+    specificDiseases: {
+      type: Array,
+      default: function() {
+        return [];
+      }
+    }
+  },
   data: function() {
     return {
       showStartScreen: false,
@@ -117,8 +124,15 @@ export default {
     };
   },
   mounted() {
-      this.startScreen();
+    var self = this;
 
+    if (this.specificDiseases.length !== 0) {
+      this.preloadedModel = this.preloadedModel.filter(function(disease) {
+        return self.specificDiseases.indexOf(disease.name) !== -1;
+      });
+    }
+
+    this.startScreen();
   },
   methods: {
     showInstructions: function() {
