@@ -21,7 +21,7 @@ def main():
             values.append(val)
 
         preloadedModel.append({
-            'disease': disease,
+            'name': disease,
             'values': values
         })
 

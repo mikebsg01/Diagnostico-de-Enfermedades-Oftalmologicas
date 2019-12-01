@@ -1,7 +1,7 @@
 {
   "preloadedModel": [
     {
-      "disease": "Conjuntivitis",
+      "name": "Conjuntivitis",
       "values": [
         0.7,
         0.6,
@@ -37,7 +37,7 @@
       ]
     },
     {
-      "disease": "Cataratas",
+      "name": "Cataratas",
       "values": [
         0.0,
         0.0,
@@ -73,7 +73,7 @@
       ]
     },
     {
-      "disease": "Orzuelo",
+      "name": "Orzuelo",
       "values": [
         0.0,
         0.5,
@@ -109,7 +109,7 @@
       ]
     },
     {
-      "disease": "Estrabismo",
+      "name": "Estrabismo",
       "values": [
         0.0,
         0.0,
@@ -145,7 +145,7 @@
       ]
     },
     {
-      "disease": "Glaucoma",
+      "name": "Glaucoma",
       "values": [
         0.0,
         0.0,
@@ -181,7 +181,7 @@
       ]
     },
     {
-      "disease": "Desprendimiento de retina",
+      "name": "Desprendimiento de retina",
       "values": [
         0.0,
         0.0,
@@ -217,7 +217,7 @@
       ]
     },
     {
-      "disease": "Tracoma",
+      "name": "Tracoma",
       "values": [
         0.7,
         0.0,
@@ -253,7 +253,7 @@
       ]
     },
     {
-      "disease": "Ectropi\u00f3n",
+      "name": "Ectropi\u00f3n",
       "values": [
         0.7,
         1.0,
@@ -289,7 +289,7 @@
       ]
     },
     {
-      "disease": "Blefaritis",
+      "name": "Blefaritis",
       "values": [
         0.0,
         0.3,
@@ -325,7 +325,7 @@
       ]
     },
     {
-      "disease": "Dacriocistitis",
+      "name": "Dacriocistitis",
       "values": [
         0.6,
         0.8,
