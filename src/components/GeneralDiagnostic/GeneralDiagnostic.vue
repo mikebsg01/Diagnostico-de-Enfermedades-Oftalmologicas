@@ -132,7 +132,6 @@ export default {
     prevSympton: function() {
       this.currentSymptonIndex -= 1;
       this.currentSeverity = this.answers[this.currentSymptonIndex];
-      window.console.log(this.currentSeverity);
     },
     nextSympton: function() {
       this.answers[this.currentSymptonIndex] = this.currentSeverity;
@@ -149,7 +148,7 @@ export default {
       }, 0);
     },
     isValidResult: function(result) {
-      return ! isNaN(result) && result >= 0.5;
+      return ! isNaN(result) && result >= 0.3;
     },
     calculateResults: function() {
       var ans = this.formatAnswers(this.answers),
@@ -189,7 +188,6 @@ export default {
     },
     showResults: function() {
       this.results = this.calculateResults();
-      window.console.log(this.results);
       this.resultScreen();
     },
     finishDiagnostic: function() {
