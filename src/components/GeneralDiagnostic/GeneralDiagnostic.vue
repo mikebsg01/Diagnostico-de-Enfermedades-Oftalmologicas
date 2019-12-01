@@ -8,10 +8,12 @@
       </b-modal>
       <div v-show="showStartScreen" class="container">
         <div class="row">
-          <div class="col-sm-12 offset-md-2 col-md-8 pt-5 pb-4">
+          <div class="col-sm-12 offset-md-2 col-md-8 pt-4 pb-2">
             <b-badge pill variant="dark" class="float-right sympton-question-number">
               {{ (currentSymptonIndex + 1) }} / {{ symptons.length }}
             </b-badge>
+          </div>
+          <div class="col-sm-12 offset-md-2 col-md-8 pt-5 pb-4">
             <h2 v-if="currentSymptonIndex < symptons.length" class="text-center">
               {{ symptons[currentSymptonIndex].question }}
               <span class="mx-1 sympton-emoji">
@@ -105,7 +107,7 @@ export default {
       showStartScreen: false,
       showResultScreen: false,
       preloadedModel: preloadedModel,
-      symptons: symptons.slice(0, 5),
+      symptons: symptons,
       answers: [],
       currentSymptonIndex: 0,
       currentSeverity: 0,
@@ -160,7 +162,7 @@ export default {
         var disease = preloadedModel[i],
             minValuesByDisease = [];
 
-        for (var j = 0; j < disease.values.slice(0, 5).length; ++j) {
+        for (var j = 0; j < disease.values.length; ++j) {
           var val = disease.values[j],
               minVal = Math.min(val, ans[j]);
 
@@ -168,7 +170,7 @@ export default {
         }
 
         var sumByDisease = this.sumArray(minValuesByDisease),
-            maxSumByDisease = this.sumArray(disease.values.slice(0, 5)),
+            maxSumByDisease = this.sumArray(disease.values),
             resultByDisease = sumByDisease / maxSumByDisease;
         
         if (this.isValidResult(resultByDisease) && resultByDisease > maxResult) {
@@ -223,6 +225,6 @@ export default {
 }
 
 .sympton-emoji {
-  margin-right: -50px !important;
+  margin-right: -14px !important;
 }
 </style>
